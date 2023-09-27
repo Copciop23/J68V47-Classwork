@@ -19,7 +19,11 @@ public class L5E3 {
             int numbeeeeeer = input.nextInt();
             if (numbeeeeeer == total){
               totalscore = totalscore + 1;
-            };
+            }
+            else {
+                System.out.println("The correct answer is: " + total);
+
+        };
         }
         System.out.println("Your score is: " + totalscore);
 
