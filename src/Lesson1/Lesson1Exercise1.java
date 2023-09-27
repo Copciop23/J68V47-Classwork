@@ -1,3 +1,5 @@
+package Lesson1;
+
 /**
  * Lesson one Exercise 1
  * @author Bogdan-Cristian Ardeleanu
