@@ -3,7 +3,7 @@ import java.util.*;
 
 
 public class L6E3 {
-    public static void main (String[] args) {
+    public static void main (String[] args) { // Random gibberish
         Random rand = new Random();
         int height = 50;
         int totalscore = 0;
