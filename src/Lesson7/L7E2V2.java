@@ -1,5 +1,5 @@
 package Lesson7;
-
+// This is LESSON 7 EXERCISE 2
 import java.util.Scanner;
 
 public class L7E2V2 {

@@ -1,6 +1,6 @@
 package Lesson7;
 import java.util.*;
-
+// This is lesson 7 exercise 3
 
 public class L7E2 {
     public static Random rand = new Random();

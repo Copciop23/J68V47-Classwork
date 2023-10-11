@@ -15,9 +15,6 @@ public class calculator {
             choice = getnumber();
             calculatethenumber(number1, number2);
             count = 1;
-
-
-
         }
 
     }
