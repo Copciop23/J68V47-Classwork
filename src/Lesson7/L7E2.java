@@ -49,7 +49,9 @@ public class L7E2 {
             totalscore = totalscore + 1;
         }
         else {
+
             lives = lives - 1;
+            System.out.println("You have " + lives + " lives left.");
         }
     }
     public static void gameover() {
