@@ -6,13 +6,12 @@ public class calculator {
     public static int count = 1;
     public static int choice = 0;
     public static void main(String[] args) {
-        String secondtime = "";
         while (true) {
             startertrtr();
             int number1 = getnumber();
             startertrtr();
             int number2 = getnumber();
-            showMenu(secondtime);
+            showMenu();
             choice = getnumber();
             calculatethenumber(number1, number2);
             count = 1;
@@ -33,7 +32,7 @@ public class calculator {
         return input.nextInt();
 
     }
-    public static void showMenu(String Message){
+    public static void showMenu(){
         System.out.println("What would you like to do with your 2 numbers  \n 1: + \n 2: -\n 3: *\n 4: /");
 
     }
