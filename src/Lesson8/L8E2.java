@@ -2,6 +2,8 @@ package Lesson8;
 import java.util.*;
 public class L8E2 {
     public static void main(String[] args) {
+        int max = 0;
+        int min = 0;
         int total = 0;
         int randomscore = 0;
         Random rand = new Random();
